@@ -33,6 +33,7 @@ e. Instalasi Development Tools
 node JS, MongoDB, Virtual Studio Code
 
 f. Cara  Menjalankan
+mengisikan data persediaan, dengan menganalisis terlebih dahulu apakah itu merupakan barang yang masuk atau keluar, setelah itu akan muncul saldo perusahaan yang sesungguhnya.
 
 
 g. Lisensi
