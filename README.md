@@ -1,3 +1,5 @@
+
+
 *PROYEK BASIS DATA*
 ======================================================================================================================
 
@@ -44,4 +46,29 @@ mongoDB :
  
 virtual studio code :
 https://code.visualstudio.com/Download
+
+
+
+PROGRESS
+1. routing 
+
+const express = require('express')
+const app = express()
+
+app.get('/', (req, res) => res.send('Hello World!'))
+ app.route('/pers')
+  .get(function (req, res) {
+    res.send('Get a random persediaan')
+  })
+  .post(function (req, res) {
+    res.send('Add a persediaan')
+  })
+  .put(function (req, res) {
+    res.send('Update persediaan')
+  })
+  
+
+app.listen(3000, () => console.log('Example app listening on port 3000!'))
+
+2. membuat form data persediaan dan membuat form data suplier
 
